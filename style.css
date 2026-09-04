@@ -1,3 +1,5 @@
+
+
 :root {
     --cor1: #3DFF91;
     --cor2: #1D673D;
@@ -7,6 +9,11 @@
     --font2: Arial, Helvetica, sans-serif;
 }
 
+@font-face {
+    font-family: 'letraRobo';
+    src: url('fonts/idroid.otf');
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -14,11 +21,6 @@
 
 body{
     background-color: var(--cor1);
-}
-
-@font-face {
-    font-family: 'font3';
-    src: url('fonts/idroid.otf') format('otf');
 }
 
 .sem-margem{
@@ -73,18 +75,26 @@ main{
 }
 
 main h1{
-    font-family: 'font3';
+    font-family: 'letraRobo', sans-serif;
     padding: 10px;
+    color: var(--cor3);
 }
 
 main h2{
-    font-family: 'font3';
-    padding: 10px;
+    font-family: 'letraRobo';
+    padding: 0 10px;
+    color: var(--cor3);
+    background-image: linear-gradient(to right, rgba(149, 247, 149, 0.664), white);
 }
 
 main p {
     line-height: 1.5;
     text-indent: 20px;
+}
+
+div img{
+    display: block;
+    margin: auto;
 }
 
 aside {
