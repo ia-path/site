@@ -88,7 +88,6 @@ main p {
 }
 
 aside {
-    border: 1px solid green;
     border-radius: 10px;
     font-family: var(--font2);
     width: 95%;
@@ -96,11 +95,10 @@ aside {
 }
 
 ul{
-    border: solid black 1px;
     columns: 2;
     list-style-type: none;
     padding: 10px;
-    width: 95%;
+    width: 90%;
     margin: auto;
 }
 
