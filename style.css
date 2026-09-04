@@ -1,0 +1,132 @@
+:root {
+    --cor1: #3DFF91;
+    --cor2: #1D673D;
+    --cor3: #1A5C38;
+    --cor4: #FFFFFF;
+    --font1: 'Times New Roman', Times, serif;
+    --font2: Arial, Helvetica, sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: var(--cor1);
+}
+
+@font-face {
+    font-family: 'font3';
+    src: url('fonts/idroid.otf') format('otf');
+}
+
+.sem-margem{
+    margin: 0;
+}
+
+p {
+    font-family: var(--font2);
+    margin: 10px
+}
+
+header {
+    background-image: linear-gradient(to bottom, var(--cor1), var(--cor2));
+    text-align: center;
+}
+
+header h1 {
+    color: white;
+    font-family: var(--font1);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+    padding: 15px;
+}
+
+header p {
+    color: var(--cor4);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+    padding: 10px 0 30px 0;
+    margin: 0px;
+}
+
+nav{
+    background-color: var(--cor3);
+    padding: 10px;
+}
+
+nav a{
+    color: var(--cor4);
+    text-decoration: none;
+    padding: 10px;
+    font-family: var(--font2);
+}
+
+nav a:hover{
+    text-decoration: underline;
+}
+
+main{
+    background-color: var(--cor4);
+    width: 80%;
+    margin: auto;
+    padding: 10px;
+}
+
+main h1{
+    font-family: 'font3';
+    padding: 10px;
+}
+
+main h2{
+    font-family: 'font3';
+    padding: 10px;
+}
+
+main p {
+    line-height: 1.5;
+    text-indent: 20px;
+}
+
+aside {
+    border: 1px solid green;
+    border-radius: 10px;
+    font-family: var(--font2);
+    width: 95%;
+    margin: auto;
+}
+
+ul{
+    border: solid black 1px;
+    columns: 2;
+    list-style-type: none;
+    padding: 10px;
+    width: 95%;
+    margin: auto;
+}
+
+
+aside h3{
+    background-color: var(--cor1);
+    color: var(--cor4);
+    border-radius: 10px 10px 0 0;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+footer{
+    background-color: var(--cor3);
+    color: var(--cor4);
+    text-align: center;
+    padding: 15px;
+    font-style: italic;
+}
+
+footer a {
+    text-decoration: none;
+    color: var(--cor4);
+    font-weight: bold;
+}
+
+footer a:hover{
+    text-decoration: underline;
+}
