@@ -71,7 +71,7 @@ main{
     background-color: var(--cor4);
     width: 80%;
     margin: auto;
-    padding: 10px;
+    padding: 0px;
 }
 
 main h1{
@@ -82,7 +82,7 @@ main h1{
 
 main h2{
     font-family: 'letraRobo';
-    padding: 0 10px;
+    padding: 0 10px 0 10px;
     color: var(--cor3);
     background-image: linear-gradient(to right, rgba(149, 247, 149, 0.664), white);
 }
@@ -92,12 +92,17 @@ main p {
     text-indent: 20px;
 }
 
-div img{
+div img {
     display: block;
     margin: auto;
 }
 
-div iframe{
+div.video {
+    background-color: var(--cor3);
+    width: 100%;
+}
+
+div iframe {
     display: block;
     margin: auto;
 }
